@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90B82061E9CAEA7002BE537 /* TBCVideoMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B82051E9CAEA7002BE537 /* TBCVideoMakerViewController.m */; };
+		B90B82091E9CAFFE002BE537 /* TBCBaseImageVideoMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B82081E9CAFFE002BE537 /* TBCBaseImageVideoMaker.m */; };
+		B9713ED21E9B72ED008DA647 /* CEMovieMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B9713ED11E9B72ED008DA647 /* CEMovieMaker.m */; };
+		B9ACEB281E9782F000A42466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACEB271E9782F000A42466 /* main.m */; };
+		B9ACEB2B1E9782F000A42466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACEB2A1E9782F000A42466 /* AppDelegate.m */; };
+		B9ACEB2E1E9782F000A42466 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACEB2D1E9782F000A42466 /* ViewController.m */; };
+		B9ACEB311E9782F000A42466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB2F1E9782F000A42466 /* Main.storyboard */; };
+		B9ACEB331E9782F000A42466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB321E9782F000A42466 /* Assets.xcassets */; };
+		B9ACEB361E9782F000A42466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB341E9782F000A42466 /* LaunchScreen.storyboard */; };
+		B9ACEB3F1E97840000A42466 /* ImgToVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACEB3E1E97840000A42466 /* ImgToVideoViewController.m */; };
+		B9ACEB421E97857300A42466 /* CEMovieMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ACEB411E97857300A42466 /* CEMovieMakerViewController.m */; };
+		B9ACEB4A1E97861300A42466 /* 30secs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB441E97861300A42466 /* 30secs.mp3 */; };
+		B9ACEB4B1E97861300A42466 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB451E97861300A42466 /* image1.jpg */; };
+		B9ACEB4C1E97861300A42466 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB461E97861300A42466 /* image2.jpg */; };
+		B9ACEB4D1E97861300A42466 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB471E97861300A42466 /* image3.jpg */; };
+		B9ACEB4E1E97861300A42466 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB481E97861300A42466 /* image4.jpg */; };
+		B9ACEB4F1E97861300A42466 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9ACEB491E97861300A42466 /* image5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B90B82041E9CAE9E002BE537 /* TBCVideoMakerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCVideoMakerViewController.h; sourceTree = "<group>"; };
+		B90B82051E9CAEA7002BE537 /* TBCVideoMakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCVideoMakerViewController.m; sourceTree = "<group>"; };
+		B90B82071E9CAFF3002BE537 /* TBCBaseImageVideoMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCBaseImageVideoMaker.h; sourceTree = "<group>"; };
+		B90B82081E9CAFFE002BE537 /* TBCBaseImageVideoMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCBaseImageVideoMaker.m; sourceTree = "<group>"; };
+		B9713ED01E9B72DE008DA647 /* CEMovieMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEMovieMaker.h; sourceTree = "<group>"; };
+		B9713ED11E9B72ED008DA647 /* CEMovieMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMovieMaker.m; sourceTree = "<group>"; };
+		B9ACEB231E9782F000A42466 /* ImgsToVideoMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImgsToVideoMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9ACEB271E9782F000A42466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9ACEB291E9782F000A42466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9ACEB2A1E9782F000A42466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9ACEB2C1E9782F000A42466 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9ACEB2D1E9782F000A42466 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9ACEB301E9782F000A42466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9ACEB321E9782F000A42466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9ACEB351E9782F000A42466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9ACEB371E9782F000A42466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9ACEB3D1E9783F700A42466 /* ImgToVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImgToVideoViewController.h; sourceTree = "<group>"; };
+		B9ACEB3E1E97840000A42466 /* ImgToVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgToVideoViewController.m; sourceTree = "<group>"; };
+		B9ACEB401E97856A00A42466 /* CEMovieMakerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEMovieMakerViewController.h; sourceTree = "<group>"; };
+		B9ACEB411E97857300A42466 /* CEMovieMakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMovieMakerViewController.m; sourceTree = "<group>"; };
+		B9ACEB441E97861300A42466 /* 30secs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 30secs.mp3; sourceTree = "<group>"; };
+		B9ACEB451E97861300A42466 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		B9ACEB461E97861300A42466 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		B9ACEB471E97861300A42466 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		B9ACEB481E97861300A42466 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		B9ACEB491E97861300A42466 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9ACEB201E9782F000A42466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90B82031E9CAE91002BE537 /* TBCVideoMaker */ = {
+			isa = PBXGroup;
+			children = (
+				B90B82071E9CAFF3002BE537 /* TBCBaseImageVideoMaker.h */,
+				B90B82081E9CAFFE002BE537 /* TBCBaseImageVideoMaker.m */,
+				B90B82041E9CAE9E002BE537 /* TBCVideoMakerViewController.h */,
+				B90B82051E9CAEA7002BE537 /* TBCVideoMakerViewController.m */,
+			);
+			name = TBCVideoMaker;
+			sourceTree = "<group>";
+		};
+		B9ACEB1A1E9782F000A42466 = {
+			isa = PBXGroup;
+			children = (
+				B9ACEB251E9782F000A42466 /* ImgsToVideoMaker */,
+				B9ACEB241E9782F000A42466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9ACEB241E9782F000A42466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9ACEB231E9782F000A42466 /* ImgsToVideoMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9ACEB251E9782F000A42466 /* ImgsToVideoMaker */ = {
+			isa = PBXGroup;
+			children = (
+				B90B82031E9CAE91002BE537 /* TBCVideoMaker */,
+				B9ACEB431E9785EB00A42466 /* ImgToVideoRes */,
+				B9ACEB291E9782F000A42466 /* AppDelegate.h */,
+				B9ACEB2A1E9782F000A42466 /* AppDelegate.m */,
+				B9ACEB2C1E9782F000A42466 /* ViewController.h */,
+				B9ACEB2D1E9782F000A42466 /* ViewController.m */,
+				B9ACEB3D1E9783F700A42466 /* ImgToVideoViewController.h */,
+				B9ACEB3E1E97840000A42466 /* ImgToVideoViewController.m */,
+				B9713ED01E9B72DE008DA647 /* CEMovieMaker.h */,
+				B9713ED11E9B72ED008DA647 /* CEMovieMaker.m */,
+				B9ACEB401E97856A00A42466 /* CEMovieMakerViewController.h */,
+				B9ACEB411E97857300A42466 /* CEMovieMakerViewController.m */,
+				B9ACEB2F1E9782F000A42466 /* Main.storyboard */,
+				B9ACEB321E9782F000A42466 /* Assets.xcassets */,
+				B9ACEB341E9782F000A42466 /* LaunchScreen.storyboard */,
+				B9ACEB371E9782F000A42466 /* Info.plist */,
+				B9ACEB261E9782F000A42466 /* Supporting Files */,
+			);
+			path = ImgsToVideoMaker;
+			sourceTree = "<group>";
+		};
+		B9ACEB261E9782F000A42466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9ACEB271E9782F000A42466 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9ACEB431E9785EB00A42466 /* ImgToVideoRes */ = {
+			isa = PBXGroup;
+			children = (
+				B9ACEB441E97861300A42466 /* 30secs.mp3 */,
+				B9ACEB451E97861300A42466 /* image1.jpg */,
+				B9ACEB461E97861300A42466 /* image2.jpg */,
+				B9ACEB471E97861300A42466 /* image3.jpg */,
+				B9ACEB481E97861300A42466 /* image4.jpg */,
+				B9ACEB491E97861300A42466 /* image5.jpg */,
+			);
+			name = ImgToVideoRes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9ACEB221E9782F000A42466 /* ImgsToVideoMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9ACEB3A1E9782F000A42466 /* Build configuration list for PBXNativeTarget "ImgsToVideoMaker" */;
+			buildPhases = (
+				B9ACEB1F1E9782F000A42466 /* Sources */,
+				B9ACEB201E9782F000A42466 /* Frameworks */,
+				B9ACEB211E9782F000A42466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImgsToVideoMaker;
+			productName = ImgsToVideoMaker;
+			productReference = B9ACEB231E9782F000A42466 /* ImgsToVideoMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9ACEB1B1E9782F000A42466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = baidu;
+				TargetAttributes = {
+					B9ACEB221E9782F000A42466 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B9ACEB1E1E9782F000A42466 /* Build configuration list for PBXProject "ImgsToVideoMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9ACEB1A1E9782F000A42466;
+			productRefGroup = B9ACEB241E9782F000A42466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9ACEB221E9782F000A42466 /* ImgsToVideoMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9ACEB211E9782F000A42466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9ACEB4E1E97861300A42466 /* image4.jpg in Resources */,
+				B9ACEB4F1E97861300A42466 /* image5.jpg in Resources */,
+				B9ACEB361E9782F000A42466 /* LaunchScreen.storyboard in Resources */,
+				B9ACEB4B1E97861300A42466 /* image1.jpg in Resources */,
+				B9ACEB4A1E97861300A42466 /* 30secs.mp3 in Resources */,
+				B9ACEB331E9782F000A42466 /* Assets.xcassets in Resources */,
+				B9ACEB4C1E97861300A42466 /* image2.jpg in Resources */,
+				B9ACEB4D1E97861300A42466 /* image3.jpg in Resources */,
+				B9ACEB311E9782F000A42466 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9ACEB1F1E9782F000A42466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90B82061E9CAEA7002BE537 /* TBCVideoMakerViewController.m in Sources */,
+				B90B82091E9CAFFE002BE537 /* TBCBaseImageVideoMaker.m in Sources */,
+				B9ACEB421E97857300A42466 /* CEMovieMakerViewController.m in Sources */,
+				B9ACEB2E1E9782F000A42466 /* ViewController.m in Sources */,
+				B9ACEB2B1E9782F000A42466 /* AppDelegate.m in Sources */,
+				B9ACEB281E9782F000A42466 /* main.m in Sources */,
+				B9ACEB3F1E97840000A42466 /* ImgToVideoViewController.m in Sources */,
+				B9713ED21E9B72ED008DA647 /* CEMovieMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9ACEB2F1E9782F000A42466 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9ACEB301E9782F000A42466 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9ACEB341E9782F000A42466 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9ACEB351E9782F000A42466 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9ACEB381E9782F000A42466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9ACEB391E9782F000A42466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9ACEB3B1E9782F000A42466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImgsToVideoMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.tieba.ImgsToVideoMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9ACEB3C1E9782F000A42466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImgsToVideoMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.tieba.ImgsToVideoMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9ACEB1E1E9782F000A42466 /* Build configuration list for PBXProject "ImgsToVideoMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9ACEB381E9782F000A42466 /* Debug */,
+				B9ACEB391E9782F000A42466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9ACEB3A1E9782F000A42466 /* Build configuration list for PBXNativeTarget "ImgsToVideoMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9ACEB3B1E9782F000A42466 /* Debug */,
+				B9ACEB3C1E9782F000A42466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9ACEB1B1E9782F000A42466 /* Project object */;
+}
